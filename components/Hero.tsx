@@ -35,14 +35,14 @@ const Hero = () => {
                   height={24}
                 />
               ))}
-            <p className="bold-16 lg:bold-20 text-blue-70">
+            <p className="bold-16 lg:bold-20 text-blue-70 ml-3">
               198k
-              <span className="regular-16 lg:regular-20 ml-1 underline">
+              <span className="regular-16 lg:regular-20 ml-1">
                 Excellent Reviews
               </span>
             </p>
           </div>
-          <div className="flex flex-col w-full gap-3 sm:flex-row">
+          <div className="flex flex-col w-full gap-3 sm:flex-row mt-6">
             <Button type="button" title="Download App" variant="btn_green" />
             <Button
               type="button"
@@ -65,7 +65,7 @@ const Hero = () => {
           <div className="flexBetween">
             <div className="flex flex-col">
               <p className="regular-16 block text-gray-20">Distance</p>
-              <p className="bold-20 text-white">173.28mi</p>
+              <p className="bold-20 text-white">173.28 mi</p>
             </div>
             <div className="flex flex-col">
               <p className="regular-16 block text-gray-20">Elevation</p>
